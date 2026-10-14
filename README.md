@@ -21,7 +21,7 @@ Cada script resuelve un problema real del servidor y se escribe con un criterio 
 git clone https://github.com/tortilicious/scripts-backend-lab
 cd scripts-backend-lab
 chmod u+x estado.sh   # solo la primera vez
-sudo ./estado.sh
+sudo ./estado.sh odoo
 ```
 
 Sin `sudo`, el script funciona, pero la columna de proceso de `ss` sale vacía.
